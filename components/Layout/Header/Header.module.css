@@ -1,0 +1,16 @@
+.Header {
+  padding: 1rem 2rem;
+  box-shadow: 0 0 2px 0 black;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  background: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  .Header {
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 2px 0 white;
+  }
+}

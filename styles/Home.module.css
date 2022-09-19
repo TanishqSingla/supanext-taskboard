@@ -1,0 +1,9 @@
+.Main {
+  min-height: 100vh;
+}
+
+@media (prefers-color-scheme: dark) {
+  .Main {
+    background: black;
+  }  
+}
